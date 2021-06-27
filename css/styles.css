@@ -8,6 +8,7 @@
 }
 .navbar .navbar-nav .nav-link:hover{
     color: #808080;
+    
 }
 @media only screen and (min-width: 960px) {
   .navbar .navbar-nav .nav-item .nav-link {
@@ -16,4 +17,18 @@
   .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
     border-right: 2px solid #000000;
   }
+}
+
+.carousel .carousel-item {
+  max-height:550px;
+}
+
+.carousel-item img {
+  object-fit:cover;
+  max-height:550px;
+}
+
+#orderButton {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
