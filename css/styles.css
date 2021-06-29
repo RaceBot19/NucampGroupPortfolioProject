@@ -1,3 +1,4 @@
+/* navbar */
 .navbar .navbar-nav .nav-link {
     color: #000000;
     font-size: 1.1em;
@@ -19,6 +20,18 @@
   }
 }
 
+#bistroName {
+  color: black;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+#bistroName:hover {
+  color: #808080;
+}
+
+
+
 .carousel .carousel-item {
   max-height:550px;
 }
@@ -32,3 +45,8 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+body {
+  background-color: 	#808080;
+}
+

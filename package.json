@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/TristinGilb/NucampGroupPortfolioProject.git"
   },
-  "author": "",
+  "author": "Tristin Gilbert",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/TristinGilb/NucampGroupPortfolioProject/issues"
@@ -21,5 +21,9 @@
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0"
+  }
 }
