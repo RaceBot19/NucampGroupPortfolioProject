@@ -58,8 +58,17 @@ select:hover, textarea:hover, input:hover {
 background-color: rgb(185, 220, 223);
 }
 
-
 h2 {
   margin-top: 20px;
   margin-left: 20px;
+}
+
+#contactus {
+  background-color: rgb(194, 214, 221);
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+#googleMap {
+  margin-bottom: 40px;
 }
