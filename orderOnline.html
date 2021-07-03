@@ -5,8 +5,372 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Online</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class="container">
+            <a href="#" class="" id="bistroName">CoffeeBeanBistro</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bistroNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="bistroNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinOurTeam.html">Join Our Team</a>
+                    </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cart and Price -->
     
+
+      <!-- Menu Items -->
+      <div class="container" id="orderOnlineItems">
+        <div class="row ">
+            <!-- Drinks-->
+            <div class="col-12">
+                <h3 class="text-center">Drinks</h3>
+                <hr class="accent my-5">
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/latte.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Latte</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Cappuccino</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$2.35</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.99</span>
+                            </p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <!-- Change prices -->
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/ristretto.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ristretto</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/whiteChocolateMocha.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">White Chocolate Mocha</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/hotCoffee.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Hot Coffee</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/expressoMacciato.webp" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Expresso Macciato</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/tea.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Hot Tea</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/drinks/soda.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Soft Drink</h5>
+                        <div class="itemText">
+                            <p>Small
+                                <span class="itemCost">$1.99</span>
+                            </p>
+                            <p>Medium
+                                <span class="itemCost">$2.50</span>
+                            </p>
+                            <p>large
+                                <span class="itemCost">$2.75</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bakery Goods -->
+            <div class="col-12">
+                <hr class="accent my-5">
+                <h3 class="text-center">Bakery Goods</h3>
+                <hr class="accent my-5">
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/bakery/muffin.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Muffin <span class="itemCost">$1.99</span></h5>
+                        <div class="itemText">
+                            <p>Blueberry / Raspberry / Chocolate / Cinnamon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/bakery/bagel.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bagel <span class="itemCost">$2.50</span></h5>
+                        <div class="itemText">
+                            <p>Plain / Cheese / Cinnamon / Blueberry</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/bakery/croissant.webp" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Croissant <span class="itemCost">$1.99</span></h5>
+                        <div class="itemText">
+                            <p>Regular / Chocolate Filled</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/bakery/danish.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Danish<span class="itemCost">$2.99</span></h5>
+                        <div class="itemText">
+                            <p>Regular / Raspberry / Chocolate / Cinnamon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/bakery/donuts.webp" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Donut<span class="itemCost">$0.99</span></h5>
+                        <div class="itemText">
+                            <p>Glazed / Chocolate Covered / Sprinkles / Cinnamon</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/bakery/struddle.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Strudel<span class="itemCost">$3.50</span></h5>
+                        <div class="itemText">
+                            <p>Cherry / Applw / Strawberry / Blueberry / Chocolate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food -->
+            <div class="col-12">
+                <hr class="accent my-5">
+                <h5 class="text-center">Food</h5>
+                <hr class="accent my-5">
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/food/hamdAndCheddar.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Ham and Cheddar<span class="itemCost">$7.25</span></h5>
+                        <div class="itemText">
+                            <p>Ham, cheddar cheese, lettuce, tomato & mayo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/food/turkeyClub.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Turkey Club<span class="itemCost">$7.45</span></h5>
+                        <div class="itemText">
+                            <p>Turkey, bacon, American cheese, lettuce tomato & mayo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/food/romaItalian.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Roma Italian<span class="itemCost">$7.99</span></h5>
+                        <div class="itemText">
+                            <p>Ham, salami, Provolone cheese, lettuce, tomato, red onion, & vinaigrette</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/food/blt.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">BLT Sandwich<span class="itemCost">$8.50</span></h5>
+                        <div class="itemText">
+                            <p>Bacon, lettuce and tomato</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/food/roastBeef.webp" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Roast Beef Sandwhich<span class="itemCost">$7.50</span></h5>
+                        <div class="itemText">
+                            <p>Roast beef, cheddar cheese, lettuce and tomato</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/menuItems/food/chickenCaesar.jpg" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Caesar Salad<span class="itemCost">$6.99</span></h5>
+                        <div class="itemText">
+                            <p>Romaine lettuce, spinach, tomatoes, chicken, Caesar dressing, lemon, parmesan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+         </div>
+     </div>
+
+
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 </html>
