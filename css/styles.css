@@ -1,33 +1,49 @@
 /* navbar */
 .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 1.1em;
+    color: #9F917D;
+    font-size: 1.3em;
 }
 
 .navbar { 
-  background: white;
+  background: black;
+  height: 7rem;
 }
 .navbar .navbar-nav .nav-link:hover{
-    color: #808080;
-    
+  color: #808080;
+  text-decoration: underline; 
 }
 @media only screen and (min-width: 960px) {
   .navbar .navbar-nav .nav-item .nav-link {
     padding: 0 0.5em;
   }
   .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
-    border-right: 2px solid #000000;
+    border-right: 2px solid #9F917D;
   }
 }
 
+li a:focus {
+  background-color: #EAB126
+}
+
 #bistroName {
-  color: black;
+  color: #9F917D;
   text-decoration: none;
   font-size: 2em;
 }
 
 #bistroName:hover {
   color: #808080;
+}
+
+
+/* Body */
+body {
+  background-color: #E1DFD1;
+}
+
+
+.specialContent {
+  font-family: 'Caudex', serif;
 }
 
 
@@ -46,7 +62,38 @@
   margin-bottom: 50px;
 }
 
-body {
-  background-color: white;
+
+
+/* Oder Online */
+#orderOnlineItems .card {
+  margin: 1rem;
+  border-radius: 20px;
+  width: 19rem;
 }
 
+#orderOnlineItems .card-body {
+  background-color: #91876e;
+  border-radius: 0px 0px 20px 20px;
+}
+
+
+.itemText {
+  text-align: left;
+}
+
+.itemCost {
+  float: right;
+}
+
+.card-img-top {
+  object-fit:fill;
+  max-height: 12rem;
+  border-radius: 20px 20px 0px 0px;
+}
+
+
+
+/* Footer */
+#site-footer {
+  background-color: black;
+}
