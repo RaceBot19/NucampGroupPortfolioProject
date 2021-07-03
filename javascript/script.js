@@ -1,12 +1,3 @@
-
-
-
-/* Order Online Javascript */
-
-function selectDrink() {
-
-
-
-
-    
-}
+$("#latteCard").click(function() {
+    $("#latteModal").modal("show");
+});
