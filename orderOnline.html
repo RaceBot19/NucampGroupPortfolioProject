@@ -1,12 +1,425 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Online</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
+
 <body>
-    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+        <div class="container">
+            <a href="#" class="" id="bistroName">CoffeeBeansBistro</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bistroNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="bistroNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="joinOurTeam.html">Join Our Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Menu Items -->
+    <div class="container">
+        <!-- Menu Items -->
+        <div class="container" id="orderOnlineItems">
+            <div class="row ">
+                <div class="col md-4">
+                    <!-- Drinks-->
+                    <div class="col-12">
+                        <h3 class="text-center">Drinks</h3>
+                        <hr class="accent my-5">
+                    </div>
+                    <div class="col-12 col-xs-12 col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg" alt="card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Latte</h5>
+                                <p class="card-text">Small </p>
+                                <p class="card-text">Medium</p>
+                                <p class="card-text">Large</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn">Add To Order</button>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Small</li>
+                                <li class="list-group-item">Medium</li>
+                                <li class="list-group-item">Large</li>
+                            </ul>
+                            <button type="button" class="btn float-right"><i
+                                    class="fa fa-3x fa-plus-circle"></i></button>
+                        </div>
+                    </div>
+                    <div class="col md-4">
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cappuccino</h5>
+                                    <p class="card-text">Small </p>
+                                    <p class="card-text">Medium</p>
+                                    <p class="card-text">Large</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col md-4">
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ristretto</h5>
+                                    <p class="card-text">Small </p>
+                                    <p class="card-text">Medium</p>
+                                    <p class="card-text">Large</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="col-12 col-xs-12 col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                        alt="card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">White Chocolate Mocha</h5>
+                                        <p class="card-text">Small </p>
+                                        <p class="card-text">Medium</p>
+                                        <p class="card-text">Large</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="col-12 col-xs-12 col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                        alt="card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hot Coffee</h5>
+                                        <p class="card-text">Small </p>
+                                        <p class="card-text">Medium</p>
+                                        <p class="card-text">Large</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="col-12 col-xs-12 col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                        alt="card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Expresso Macciato</h5>
+                                        <p class="card-text">Small </p>
+                                        <p class="card-text">Medium</p>
+                                        <p class="card-text">Large</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="col-12 col-xs-12 col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                        alt="card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Hot Tea</h5>
+                                        <p class="card-text">Small </p>
+                                        <p class="card-text">Medium</p>
+                                        <p class="card-text">Large</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col md-4">
+                            <div class="col-12 col-xs-12 col-md-4">
+                                <div class="card">
+                                    <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                        alt="card image cap">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Soft Drink</h5>
+                                        <p class="card-text">Small </p>
+                                        <p class="card-text">Medium</p>
+                                        <p class="card-text">Large</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Bakery Goods -->
+                        <div class="col-12">
+                            <hr class="accent my-5">
+                            <h3 class="text-center">Bakery Goods</h3>
+                            <hr class="accent my-5">
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Muffin</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bagel</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Croissant</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Danish</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Donut</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Strudel</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Food -->
+                        <div class="col-12">
+                            <hr class="accent my-5">
+                            <h5 class="text-center">Food</h5>
+                            <hr class="accent my-5">
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ham and Cheddar</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Turkey Club</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Roma Italian</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">BLT Sandwich</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Roast Beef Sandwhich</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xs-12 col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="images/menuItems/drinks/cappuccino.jpg"
+                                    alt="card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chicken Caesar Salad Wrap</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="images/menuItems/drinks/" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as
+                                            a natural lead-in to additional content. This content is a little
+                                            bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as
+                                            a natural lead-in to additional content. This content is a little
+                                            bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as
+                                            a natural lead-in to additional content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-4">
+                                <div class="card">
+                                    <img src="..." class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as
+                                            a natural lead-in to additional content. This content is a little
+                                            bit longer.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+16155551234"><i class="fa fa-phone"></i>
+                        1-615-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:info@CoffeeBeansBistro"><i
+                            class="fa fa-envelope-o"></i>
+                        info@CoffeeBeansBistro</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+
 </body>
+
 </html>

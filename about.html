@@ -27,7 +27,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm navbar-light sticky-top">
         <div class="container">
-            <a href="#" class="" id="bistroName">CoffeeBeanBistro</a>
+            <a href="#" class="" id="bistroName">CoffeeBeansBistro</a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#bistroNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -65,40 +65,40 @@
 
         <div class="row row-content align-items-center">
             <div class="col-sm-4">
-                <h5>Our Address</h5>
+                <h5>CoffeeBeans Bistro</h5>
                 <address>
-                    1 Nucamp Way<br />
-                    Seattle, WA 98001<br />
+                    210 Louise Ave. Elliston Place<br />
+                    Nashville, TN 37203<br />
                     U.S.A.
                 </address>
             </div>
             <div class="col">
-                <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
-                    1-206-555-1234</a><br>
-                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i>
-                    campsites@nucamp.co</a>
+                <a role="button" class="btn btn-link" href="tel:+16155551234"><i class="fa fa-phone"></i>
+                    1-615-555-1234</a><br>
+                <a role="button" class="btn btn-link" href="mailto:info@CoffeeBeansBistro.com"><i
+                        class="fa fa-envelope-o"></i>
+                    info@CoffeeBeansBistro.com</a>
             </div>
         </div>
 
+
         <!--  Google Map-->
         <div class="row row-content">
-            <div class="col-6">
-                <h1>My First Google Map</h1>
+            <div class="col-12 col-md-6">
+                <h3>Google Map</h3>
+                <!--The div element for the map -->
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.601036383564!2d-86.80713778460444!3d36.15192628008725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886466beee104c83%3A0xf4fc9520f4897f45!2sCafe%20Coco%20-%20Cafe%20%26%20Bistro!5e0!3m2!1sen!2sus!4v1625274147584!5m2!1sen!2sus"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
 
-                <div id="googleMap" style="width:100%;height:400px;"></div>
 
-                <script>
-                    function myMap() {
-                        var mapProp = {
-                            center: new google.maps.LatLng(51.508742, -0.120850),
-                            zoom: 5,
-                        };
-                        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-                    }
-                </script>
-
-                <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-
+            <!--  added images -->
+            <div class="col-12 col-md-6">
+                <img src="images/coffee/coffee1.jpg" class="d-flex ml-3 my-4 img-thumbnail" />
+                <img src="images/coffee/sandwich.jpg" class="d-flex ml-3 my-4 img-thumbnail" />
             </div>
         </div>
 
@@ -129,18 +129,26 @@
                             class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
-                        1-206-555-1234</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
-                            class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                    <a role="button" class="btn btn-link" href="tel:+16155551234"><i class="fa fa-phone"></i>
+                        1-615-555-1234</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:info@CoffeeBeansBistro"><i
+                            class="fa fa-envelope-o"></i> info@CoffeeBeansBistro</a>
                 </div>
             </div>
         </div>
     </footer>
 
 
-
-
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 
 </body>
